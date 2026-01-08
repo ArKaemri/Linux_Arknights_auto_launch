@@ -42,4 +42,4 @@ Now when everything configured (have MAA .toml files, MAA executable, android em
 3. Using 'requirements.txt' create virtual environment, in terminal write 'python3 -m venv .venv', activate it 'source .venv/bin/activate', install libraries 'pip install -r requirements.txt', close it 'deactivate'
 4. In 'auto_arknights.sh' change MAA_PATH to the path of 'maa' executable to where you put it, and the ANDROID_NAME to your android emulator name (if used the same as mine, skip the name change)
 5. Go to Menu -> System Settings -> Keyboard -> Shortcuts -> Custom Shortcuts -> Add custom shortcut -> put in name, choose shortcut keys and give path to the './auto_arknights.sh'
-- For example -> my script in ~/Scripts/ and in ~/.config/maa/tasks/ I have file 'daily.toml' so shortcut will be: command - gnome-terminal -- bash -c "$HOME/Scripts/auto_arknights.sh daily; exec bash", keys - CTRL+Super+1
+- For example -> my script in ~/Scripts/ and in ~/.config/maa/tasks/ I have file 'daily.toml' so shortcut will be: command - gnome-terminal -- bash -c "$HOME/Scripts/auto_arknights.sh daily", keys - CTRL+Super+1
