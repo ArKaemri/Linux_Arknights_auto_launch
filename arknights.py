@@ -62,7 +62,7 @@ def check(position, color_target, t=0, loop=False, color_limit=1, timeout=None):
 
 # work loop
 count = 0
-while count < 3:
+while count <= 3:
     # start Arknights
     time.sleep(5)
     check(CONTINUE, YELLOW, t=4, loop=True)
